@@ -2,7 +2,7 @@
 `scNanoATAC-seq` is a long-read sequencing (Oxford Nanopore Technologies) based single-cell ATAC-seq method designed to capture more genetic variations per read. Our results demonstrated that scNanoATAC-seq can detect chromatin accessibility and genetic variants simultaneously within an individual cell, and it overcomes the disadvantages of short-read ATAC-seq in haplotyping and the detection of large-scale structural variations (SVs).
 
 # Code Layout
-Generally, we ran compute-consuming programs by shell scripts, which implemented parallel computation at the single-cell level. After getting results of parallel computation, we made exploratory data analyses mostly in the R environment.
+Generally, we used shell scripts to run compute-consuming pipelines, which implemented parallel computation at the single-cell level. After getting results of parallel computation, we made exploratory data analyses mostly in the R environment.
 
 In this project, each folder stands for a module of analysis. If names of scripts start with step numbers (e.g. `s1` and `s2` stands for the first and second step of a pipeline), please **follow the step numbers and run them in sequential**. For those without step numbers, the scripts are parallel and independent.
 
