@@ -19,7 +19,7 @@ if (T) {
     function(file = NULL,
              genome = 'hg38',
              chr.used = c(1:22, 'X')) {
-      vcf <- readVcf(file, genome)
+      vcf <- readVcf(file, genome, ScanVcfParam(geno = NA))
       vcf <-
         vcf[seqnames(vcf) %in% c(chr.used, paste0('chr', chr.used))] %>% unique
       
