@@ -144,7 +144,7 @@ Install the following software before running the scripts.
 
     (and all the packages declared at the head of R scripts...)
 ```
-# Getting Help
+# To Get Help
 Please go to the [issues page][issue] for help or contact with me directly by zhenhuan.jiang@stu.pku.edu.cn.
 
 [issue]: https://github.com/Tanglab-Jiang/scNanoATAC-seq_paper/issues/
