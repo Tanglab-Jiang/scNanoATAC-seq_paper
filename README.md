@@ -149,5 +149,8 @@ Please go to the [issues page][issue] for help or contact with me directly by zh
 
 [issue]: https://github.com/Tanglab-Jiang/scNanoATAC-seq_paper/issues/
 
+# Cite Me
+Hu, Y., Jiang, Z., Chen, K. et al. scNanoATAC-seq: a long-read single-cell ATAC sequencing method to detect chromatin accessibility and genetic variants simultaneously within an individual cell. Cell Res (2022). https://doi.org/10.1038/s41422-022-00730-x
+
 # License
 MIT © Zhenhuan Jiang
