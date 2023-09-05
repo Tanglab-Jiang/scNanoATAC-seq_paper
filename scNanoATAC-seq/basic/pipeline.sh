@@ -145,7 +145,7 @@ trim(){
   then
   cutadapt \
     -g TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG \
-    -a CTGTCTCTTATACACATCTCCGAGCCCACGAGA \
+    -a CTGTCTCTTATACACATCTGACGCTGCCGACGA \
     --times 1 \
     --minimum-length $FILT_SIZE \
     -e 0.2 \
