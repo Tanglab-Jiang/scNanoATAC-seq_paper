@@ -125,7 +125,7 @@ Install the following software before running the scripts.
 ```
     python (3.8.5)
     R (4.1.0)
-    **ArchR (1.0.1)**
+    ArchR (1.0.1)
     nanoplexer (0.1)
     cutadapt (3.2)
     minimap2 (2.17-r941)
@@ -146,7 +146,7 @@ Install the following software before running the scripts.
     (and all the packages declared at the head of R scripts...)
 ```
 
-Please note that the generation of arrow files depends on **ArchR (v1.0.1)**, because newer versions filter the fragment by size. For further downstream analyses, ArchR (v1.0.2) worked well.
+Please note that the generation of arrow files depends on **ArchR (v1.0.1)**, because newer versions filter the fragment by size. Newer versions of ArchR may work well on further downstream analyses after generation of arrow files.
 
 # To Get Help
 Please go to the [issues page][issue] for help or contact with me directly by zhenhuan.jiang@stu.pku.edu.cn.
