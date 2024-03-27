@@ -13,7 +13,7 @@ These scripts in the `scNanoATAC-seq` folder produced the main results of our wo
 This shell pipeline for sequence data preprocessing was in the `basic` folder. The preprocessing converts the raw sequence data to chromatin accessibility signals in the ArchR project.
 
 **Update (Mar 2024):**
-**There was an issue with the adapter sequences provided in the Methods section of our paper. We have updated them in the `basic.sh` script.**
+**There was an issue with the adapter sequences provided in the Methods section of our paper. We have updated them in the `scNanoATAC-seq/basic/pipeline.sh` script.**
 
 *Input*: 
 
