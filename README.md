@@ -12,6 +12,9 @@ These scripts in the `scNanoATAC-seq` folder produced the main results of our wo
 ### **Basic**
 This shell pipeline for sequence data preprocessing was in the `basic` folder. The preprocessing converts the raw sequence data to chromatin accessibility signals in the ArchR project.
 
+**Update (Mar 2024):**
+**There was an issue with the adapter sequences provided in the Methods section of our paper. We have updated them in the `basic.sh` script.**
+
 *Input*: 
 
 library name (raw data); single-cell ID; threads; working directory; the list of outer barcode.
@@ -23,6 +26,7 @@ barcode demultiplexing; read trimming; alignment; read quality filtering; sortin
 *Output*: 
 
 trimmed and aligned reads in bam files by single cell; an `ArchR` project; single-cell SV; human-mouse mixed alignment.
+
 
 ### **Main**
 The `main` folder contains the R scripts used to analyze and illustrate single-cell data produced by scNanoATAC-seq, where most of the analyses were based on `ArchR`. Analyses of human cell lines, human PBMCs and mouse cell lines were in separated scripts.
